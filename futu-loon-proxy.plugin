@@ -1,0 +1,30 @@
+#!name=Futu / Futubull / moomoo Proxy
+#!desc=Route Futu, Futubull, and moomoo traffic through a selected proxy group without enabling global proxy. Uses full domain rules plus refined IP ranges to reduce collateral routing.
+#!author=Codex
+
+[Rule]
+# Futu / Futubull / moomoo domains
+DOMAIN-SUFFIX,futunn.com,PROXY
+DOMAIN-SUFFIX,futu5.com,PROXY
+DOMAIN-SUFFIX,futuapi.com,PROXY
+DOMAIN-SUFFIX,futuhn.com,PROXY
+DOMAIN-SUFFIX,futuhk.com,PROXY
+DOMAIN-SUFFIX,futufin.com,PROXY
+DOMAIN-SUFFIX,fututrade.com,PROXY
+DOMAIN-SUFFIX,futuesop.com,PROXY
+DOMAIN-SUFFIX,futuin.com,PROXY
+DOMAIN-SUFFIX,futuhk1.com,PROXY
+DOMAIN-SUFFIX,futuhongkong.com,PROXY
+DOMAIN-SUFFIX,moomoo.com,PROXY
+DOMAIN-SUFFIX,futustatic.com,PROXY
+DOMAIN-SUFFIX,qtlcdn.com,PROXY
+
+# Official / investor site supplement
+DOMAIN-SUFFIX,futuholdings.com,PROXY
+
+# Refined Tencent/Futu IP ranges
+IP-CIDR,43.168.0.0/16,PROXY,no-resolve
+IP-CIDR,43.174.0.0/16,PROXY,no-resolve
+IP-CIDR,43.175.0.0/16,PROXY,no-resolve
+IP-CIDR,49.51.0.0/16,PROXY,no-resolve
+IP-CIDR,119.28.0.0/16,PROXY,no-resolve
