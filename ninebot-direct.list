@@ -1,0 +1,11 @@
+# Ninebot / Segway domains for Loon
+# Add this as a Remote Rule and set policy to DIRECT.
+DOMAIN-SUFFIX,ninebot.com
+DOMAIN-SUFFIX,ninebot.cn
+DOMAIN-SUFFIX,ninebot.com.cn
+DOMAIN-SUFFIX,segway.com
+DOMAIN-SUFFIX,segway.com.cn
+DOMAIN-SUFFIX,ninedroid.com
+DOMAIN-SUFFIX,ninedroid.cn
+DOMAIN-KEYWORD,ninebot
+DOMAIN-KEYWORD,segway
